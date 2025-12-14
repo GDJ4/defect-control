@@ -1,4 +1,10 @@
-
+echo "# defect-control" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:GDJ4/defect-control.git
+git push -u origin main
 ## 1. Анализ
 
 ### 1.1 Бизнес-цели
@@ -63,7 +69,6 @@
 - **UC-4 Просмотр прогресса/отчёт (наблюдатель/менеджер)**: дашборд KPI, экспорт CSV/Excel.  
     
 
-![[Pasted image 20250925155116.png]]
 ### 1.7 Риски и допущения
 
 - **Смена требований на поздних этапах** — снижать через согласование SRS и трассировку «требование → задача → тест» .
@@ -133,7 +138,7 @@
     
 
 **ER-диаграмма:** 
-![[Pasted image 20250925125552.png]]
+
 
 ### 2.3 REST API (выдержка)
 
@@ -253,3 +258,7 @@ POST /api/v1/defects
 
 
 # defect-control
+<img width="2480" height="1240" alt="image" src="https://github.com/user-attachments/assets/b2ffabaa-5513-4163-9a59-4ee0e83268db" />
+<img width="2520" height="924" alt="image" src="https://github.com/user-attachments/assets/bdb98c97-e2a9-4fd3-9a8a-416bdddc2147" />
+<img width="2480" height="1240" alt="image" src="https://github.com/user-attachments/assets/25315db9-36d6-4eb7-b708-d87aa91a4b76" />
+
