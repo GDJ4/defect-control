@@ -1,10 +1,3 @@
-echo "# defect-control" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:GDJ4/defect-control.git
-git push -u origin main
 ## 1. Анализ
 
 ### 1.1 Бизнес-цели
@@ -67,7 +60,9 @@ git push -u origin main
 - **UC-3 Изменение статуса (инженер/менеджер)**: _Новая → В работе → На проверке → Закрыта/Отменена_ с логом переходов.
     
 - **UC-4 Просмотр прогресса/отчёт (наблюдатель/менеджер)**: дашборд KPI, экспорт CSV/Excel.  
-    
+<img width="891" height="988" alt="image" src="https://github.com/user-attachments/assets/c83f3153-474b-491e-a348-7b70e9f65ffd" />
+
+
 
 ### 1.7 Риски и допущения
 
@@ -138,6 +133,8 @@ git push -u origin main
     
 
 **ER-диаграмма:** 
+<img width="1523" height="675" alt="image" src="https://github.com/user-attachments/assets/1db2ba4c-84b9-49d1-84ae-10ebe9a10374" />
+
 
 
 ### 2.3 REST API (выдержка)
